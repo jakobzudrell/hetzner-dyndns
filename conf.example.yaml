@@ -1,0 +1,17 @@
+##
+## Application configuration for hetzner-dyndns
+##
+
+api:
+  base_url: "https://dns.hetzner.com/api/v1"
+  api_key: "****************************"
+  zone_id: "****************************"
+  records:
+    -
+      id: "****************************"
+      ttl: 0
+      type: "A"
+      name: "your_name"
+
+hooks:
+  healthchecks: https://hc-ping.com/*************************

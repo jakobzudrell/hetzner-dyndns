@@ -1,0 +1,7 @@
+.vscode/
+
+# Ignore main config file
+conf.yaml
+
+# Ignore log files
+*.log
